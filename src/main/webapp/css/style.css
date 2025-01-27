@@ -1,0 +1,155 @@
+.purple{
+	
+	background:#673ab7;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;  /* Soft light gray background */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-main {
+    background-color: #6f42c1; /* Purple color */
+    color: white;
+    border-radius: 50px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-main:hover {
+    background-color: #5129b7;  /* Darker purple on hover */
+    cursor: pointer;
+}
+
+/* Input Field Styling */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    margin-top: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #6f42c1; /* Purple border on focus */
+    box-shadow: 0 0 5px rgba(111, 66, 193, 0.6);
+}
+
+/* Card or Box Styling */
+.card {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ffb3d9; /* Light pink for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn-main {
+        padding: 12px 18px;
+        font-size: 1rem;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
