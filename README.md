@@ -60,6 +60,13 @@ Once the application is running, you can start using NoteTaker to manage your no
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to submit a pull request or open an issue. For major changes, please open an issue first to discuss what you would like to change.
+##images##
+![Screenshot 2025-01-28 030503](https://github.com/user-attachments/assets/5b578cdf-61bc-4f00-9fc0-d1cea77957f7)
+![Screenshot 2025-01-28 030348](https://github.com/user-attachments/assets/d5c259a0-2189-487b-bfe7-cc539566ba5d)
+![Screenshot 2025-01-28 030431](https://github.com/user-attachments/assets/ed064fda-ea48-4de7-9450-0ee13fd7e241)
+![Screenshot 2025-01-28 030526](https://github.com/user-attachments/assets/4735aa0b-1169-4bf4-bca6-3b36aee636ea)
+
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
